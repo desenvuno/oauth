@@ -46,7 +46,7 @@ URL:
 Header: 
   Authorization: passar token privado
 Parâmetros post x-www-form-urlencoded:
-  Code: código retornado na url de redirecionamento
+  code: código retornado na url de redirecionamento
 ```
 
 Retornos jSON:
@@ -65,7 +65,8 @@ Retornos jSON:
   "data": {
     "nompes": "Nome usuário",
     "codpes": "Código do usuário",
-    "e_mail": "email@usuario.com"
+    "e_mail": "email@usuario.com",
+    "login": "login",
   }
 }
 ```
